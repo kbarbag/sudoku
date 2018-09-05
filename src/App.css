@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.board-row.bb .piece {
+  border-bottom-width: 1px;
+}
+
+.edit_button {
+  cursor: pointer;
+}
+
+.piece {
+  background: gray;
+  border: 1px solid black;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+  /* height:33px; */
+  max-width:33px;
+  padding:0px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: wrap;
+  border-width: 1px 1px 0px 0px;
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+
+.piece.selected {
+  background: gold;
+  transition: 0.1s ease-in;
+}
+
+/* .piece:first-child {
+  border-left-width: 1px;
+} */
+
+.piece.lb {
+  /* border-left-width: 3px; */
+  margin-left: 3px;
+  border-left-width: 1px;
+}
+
+.piece.bb {
+  /* border-top-width: 3px; */
+  margin-top:3px;
+}
+
+.piece-inner {
+  width:10px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.highlight {
+  background: #ffd70073;
+}
+
+.highlight2 {
+  background: #28a745;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
