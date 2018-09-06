@@ -7,7 +7,9 @@ To install (on \*nix systems):
 3) npm start
 4) In a browser, navigate to localhost:3000
 
+______________________
 [Live Demo](http://45.79.152.161:3000/) \(Built for mobile devices\)
+______________________
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
